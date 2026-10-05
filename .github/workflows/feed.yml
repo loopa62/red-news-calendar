@@ -1,0 +1,47 @@
+name: Refresh RED NEWS feed
+
+on:
+  schedule:
+    - cron: "7 * * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths-ignore:
+      - "data/events.json"
+      - "public/red-news.ics"
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: red-news-feed
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Tests
+        run: python -m pytest -q
+      - name: Build and validate current feed
+        run: python build.py --test
+      - name: Commit changed state and feed
+        run: |
+          git config user.name "red-news-bot"
+          git config user.email "red-news-bot@users.noreply.github.com"
+          git add data/events.json public/red-news.ics
+          git diff --cached --quiet || git commit -m "chore: refresh RED NEWS feed"
+          git push
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: public
+      - uses: actions/deploy-pages@v4

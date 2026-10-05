@@ -1,0 +1,29 @@
+{
+  "timezone": "Asia/Jakarta",
+  "source_name": "ForexFactory",
+  "source_url": "https://nfs.faireconomy.media/ff_calendar_thisweek.json",
+  "minimum_source_events": 10,
+  "non_usd_currencies": ["EUR", "JPY", "GBP", "CHF", "AUD"],
+  "exclude_patterns": [
+    "consumer credit", "bond auction", "treasury auction", "bill auction",
+    "mortgage", "oil inventories", "natural gas", "beige book",
+    "fed member", "fomc member", "treasury currency report"
+  ],
+  "extreme_patterns": [
+    "(^| )cpi($| )", "core cpi", "non farm", "nonfarm", "unemployment rate",
+    "federal funds rate", "fomc statement", "fomc press conference",
+    "fed chair.*speaks", "powell.*speaks", "core pce", "pce price index",
+    "advance gdp", "gdp q/q"
+  ],
+  "high_patterns": [
+    "fomc meeting minutes", "adp.*employment", "ism manufacturing pmi",
+    "ism services pmi", "retail sales", "core retail sales",
+    "prelim uom consumer sentiment", "jolts job openings"
+  ],
+  "non_usd_super_patterns": [
+    "ecb.*(rate|monetary policy|press conference)",
+    "boe.*(rate|monetary policy)", "official bank rate",
+    "boj.*(rate|monetary policy|outlook)",
+    "snb.*(rate|monetary policy)", "rba.*(rate|monetary policy)", "cash rate"
+  ]
+}
