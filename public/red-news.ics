@@ -11,12 +11,12 @@ BEGIN:VEVENT
 SUMMARY:🔴 USD — FOMC Meeting Minutes
 DTSTART;TZID=Asia/Jakarta:20261008T010000
 DTEND;TZID=Asia/Jakarta:20261008T013000
-DTSTAMP:20261008T082549Z
+DTSTAMP:20261008T092505Z
 UID:d29336b2e81a5bc112eb4ac3@red-news-calendar
 SEQUENCE:1791159913
 DESCRIPTION:Currency: USD\nImpact: HIGH\nEvent: FOMC Meeting Minutes\n\nFo
  recast: —\nPrevious: —\n\nSource: ForexFactory\nLast updated: 2026-10-
- 08T08:25:49.286137Z
+ 08T09:25:05.357579Z
 LAST-MODIFIED:20261005T002513Z
 STATUS:CONFIRMED
 URL:https://nfs.faireconomy.media/ff_calendar_thisweek.json
