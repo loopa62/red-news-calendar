@@ -17,7 +17,7 @@
       "source": "ForexFactory",
       "source_url": "https://nfs.faireconomy.media/ff_calendar_thisweek.json",
       "first_seen_at": "2026-10-05T00:25:13.654530Z",
-      "last_seen_at": "2026-10-08T06:30:58.004426Z",
+      "last_seen_at": "2026-10-08T07:25:56.393422Z",
       "last_changed_at": "2026-10-05T00:25:13.654530Z",
       "status": "active",
       "observed_week": "2026-W40"
@@ -1027,6 +1027,19 @@
     },
     {
       "timestamp": "2026-10-08T06:30:57.916085Z",
+      "status": "success",
+      "source_events": 83,
+      "usd_events": 23,
+      "usd_high_impact": 1,
+      "quality_filter_passed": 1,
+      "non_usd_super_events": 0,
+      "final_red_news": 1,
+      "added": 0,
+      "updated": 0,
+      "removed": 0
+    },
+    {
+      "timestamp": "2026-10-08T07:25:56.089382Z",
       "status": "success",
       "source_events": 83,
       "usd_events": 23,
