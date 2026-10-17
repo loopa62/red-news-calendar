@@ -38,8 +38,8 @@
       "source": "ForexFactory",
       "source_url": "https://nfs.faireconomy.media/ff_calendar_thisweek.json",
       "first_seen_at": "2026-10-11T05:22:34.467693Z",
-      "last_seen_at": "2026-10-17T13:31:55.019355Z",
-      "last_changed_at": "2026-10-17T13:31:55.019355Z",
+      "last_seen_at": "2026-10-17T14:29:14.235320Z",
+      "last_changed_at": "2026-10-17T14:29:14.235320Z",
       "status": "active",
       "observed_week": "2026-W41"
     },
@@ -59,8 +59,8 @@
       "source": "ForexFactory",
       "source_url": "https://nfs.faireconomy.media/ff_calendar_thisweek.json",
       "first_seen_at": "2026-10-11T05:22:34.467693Z",
-      "last_seen_at": "2026-10-17T13:31:55.019355Z",
-      "last_changed_at": "2026-10-17T13:31:55.019355Z",
+      "last_seen_at": "2026-10-17T14:29:14.235320Z",
+      "last_changed_at": "2026-10-17T14:29:14.235320Z",
       "status": "active",
       "observed_week": "2026-W41"
     },
@@ -80,7 +80,7 @@
       "source": "ForexFactory",
       "source_url": "https://nfs.faireconomy.media/ff_calendar_thisweek.json",
       "first_seen_at": "2026-10-11T05:22:34.467693Z",
-      "last_seen_at": "2026-10-17T13:31:55.019355Z",
+      "last_seen_at": "2026-10-17T14:29:14.235320Z",
       "last_changed_at": "2026-10-12T22:23:11.108752Z",
       "status": "active",
       "observed_week": "2026-W41"
@@ -101,7 +101,7 @@
       "source": "ForexFactory",
       "source_url": "https://nfs.faireconomy.media/ff_calendar_thisweek.json",
       "first_seen_at": "2026-10-11T05:22:34.467693Z",
-      "last_seen_at": "2026-10-17T13:31:55.019355Z",
+      "last_seen_at": "2026-10-17T14:29:14.235320Z",
       "last_changed_at": "2026-10-11T05:22:34.467693Z",
       "status": "active",
       "observed_week": "2026-W41"
@@ -122,26 +122,13 @@
       "source": "ForexFactory",
       "source_url": "https://nfs.faireconomy.media/ff_calendar_thisweek.json",
       "first_seen_at": "2026-10-11T05:22:34.467693Z",
-      "last_seen_at": "2026-10-17T13:31:55.019355Z",
+      "last_seen_at": "2026-10-17T14:29:14.235320Z",
       "last_changed_at": "2026-10-11T05:22:34.467693Z",
       "status": "active",
       "observed_week": "2026-W41"
     }
   },
   "runs": [
-    {
-      "timestamp": "2026-10-13T10:27:01.436880Z",
-      "status": "success",
-      "source_events": 110,
-      "usd_events": 34,
-      "usd_high_impact": 9,
-      "quality_filter_passed": 7,
-      "non_usd_super_events": 0,
-      "final_red_news": 7,
-      "added": 0,
-      "updated": 4,
-      "removed": 0
-    },
     {
       "timestamp": "2026-10-13T11:25:51.631970Z",
       "status": "success",
@@ -1418,6 +1405,19 @@
     },
     {
       "timestamp": "2026-10-17T13:31:54.602427Z",
+      "status": "success",
+      "source_events": 111,
+      "usd_events": 35,
+      "usd_high_impact": 9,
+      "quality_filter_passed": 7,
+      "non_usd_super_events": 0,
+      "final_red_news": 7,
+      "added": 0,
+      "updated": 4,
+      "removed": 0
+    },
+    {
+      "timestamp": "2026-10-17T14:29:14.125464Z",
       "status": "success",
       "source_events": 111,
       "usd_events": 35,
