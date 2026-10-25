@@ -130,19 +130,6 @@
   },
   "runs": [
     {
-      "timestamp": "2026-10-21T00:43:36.427543Z",
-      "status": "success",
-      "source_events": 86,
-      "usd_events": 14,
-      "usd_high_impact": 0,
-      "quality_filter_passed": 0,
-      "non_usd_super_events": 0,
-      "final_red_news": 0,
-      "added": 0,
-      "updated": 0,
-      "removed": 0
-    },
-    {
       "timestamp": "2026-10-21T01:39:20.843564Z",
       "status": "success",
       "source_events": 86,
@@ -1418,6 +1405,19 @@
     },
     {
       "timestamp": "2026-10-25T03:33:37.097335Z",
+      "status": "success",
+      "source_events": 86,
+      "usd_events": 14,
+      "usd_high_impact": 0,
+      "quality_filter_passed": 0,
+      "non_usd_super_events": 0,
+      "final_red_news": 0,
+      "added": 0,
+      "updated": 0,
+      "removed": 0
+    },
+    {
+      "timestamp": "2026-10-25T04:34:09.124914Z",
       "status": "success",
       "source_events": 86,
       "usd_events": 14,
