@@ -143,7 +143,7 @@
       "source": "ForexFactory",
       "source_url": "https://nfs.faireconomy.media/ff_calendar_thisweek.json",
       "first_seen_at": "2026-10-25T05:32:34.846581Z",
-      "last_seen_at": "2026-10-30T09:52:31.171237Z",
+      "last_seen_at": "2026-10-30T10:48:42.516815Z",
       "last_changed_at": "2026-10-25T05:32:34.846581Z",
       "status": "active",
       "observed_week": "2026-W43"
@@ -164,7 +164,7 @@
       "source": "ForexFactory",
       "source_url": "https://nfs.faireconomy.media/ff_calendar_thisweek.json",
       "first_seen_at": "2026-10-25T05:32:34.846581Z",
-      "last_seen_at": "2026-10-30T09:52:31.171237Z",
+      "last_seen_at": "2026-10-30T10:48:42.516815Z",
       "last_changed_at": "2026-10-25T05:32:34.846581Z",
       "status": "active",
       "observed_week": "2026-W43"
@@ -185,7 +185,7 @@
       "source": "ForexFactory",
       "source_url": "https://nfs.faireconomy.media/ff_calendar_thisweek.json",
       "first_seen_at": "2026-10-25T05:32:34.846581Z",
-      "last_seen_at": "2026-10-30T09:52:31.171237Z",
+      "last_seen_at": "2026-10-30T10:48:42.516815Z",
       "last_changed_at": "2026-10-25T05:32:34.846581Z",
       "status": "active",
       "observed_week": "2026-W43"
@@ -206,7 +206,7 @@
       "source": "ForexFactory",
       "source_url": "https://nfs.faireconomy.media/ff_calendar_thisweek.json",
       "first_seen_at": "2026-10-25T05:32:34.846581Z",
-      "last_seen_at": "2026-10-30T09:52:31.171237Z",
+      "last_seen_at": "2026-10-30T10:48:42.516815Z",
       "last_changed_at": "2026-10-25T05:32:34.846581Z",
       "status": "active",
       "observed_week": "2026-W43"
@@ -227,7 +227,7 @@
       "source": "ForexFactory",
       "source_url": "https://nfs.faireconomy.media/ff_calendar_thisweek.json",
       "first_seen_at": "2026-10-25T05:32:34.846581Z",
-      "last_seen_at": "2026-10-30T09:52:31.171237Z",
+      "last_seen_at": "2026-10-30T10:48:42.516815Z",
       "last_changed_at": "2026-10-25T05:32:34.846581Z",
       "status": "active",
       "observed_week": "2026-W43"
@@ -248,7 +248,7 @@
       "source": "ForexFactory",
       "source_url": "https://nfs.faireconomy.media/ff_calendar_thisweek.json",
       "first_seen_at": "2026-10-25T05:32:34.846581Z",
-      "last_seen_at": "2026-10-30T09:52:31.171237Z",
+      "last_seen_at": "2026-10-30T10:48:42.516815Z",
       "last_changed_at": "2026-10-25T05:32:34.846581Z",
       "status": "active",
       "observed_week": "2026-W43"
@@ -269,7 +269,7 @@
       "source": "ForexFactory",
       "source_url": "https://nfs.faireconomy.media/ff_calendar_thisweek.json",
       "first_seen_at": "2026-10-25T05:32:34.846581Z",
-      "last_seen_at": "2026-10-30T09:52:31.171237Z",
+      "last_seen_at": "2026-10-30T10:48:42.516815Z",
       "last_changed_at": "2026-10-30T03:48:34.885657Z",
       "status": "active",
       "observed_week": "2026-W43"
@@ -290,26 +290,13 @@
       "source": "ForexFactory",
       "source_url": "https://nfs.faireconomy.media/ff_calendar_thisweek.json",
       "first_seen_at": "2026-10-25T05:32:34.846581Z",
-      "last_seen_at": "2026-10-30T09:52:31.171237Z",
+      "last_seen_at": "2026-10-30T10:48:42.516815Z",
       "last_changed_at": "2026-10-30T03:48:34.885657Z",
       "status": "active",
       "observed_week": "2026-W43"
     }
   },
   "runs": [
-    {
-      "timestamp": "2026-10-26T04:37:14.401386Z",
-      "status": "success",
-      "source_events": 96,
-      "usd_events": 26,
-      "usd_high_impact": 5,
-      "quality_filter_passed": 5,
-      "non_usd_super_events": 3,
-      "final_red_news": 8,
-      "added": 0,
-      "updated": 0,
-      "removed": 0
-    },
     {
       "timestamp": "2026-10-26T05:37:15.751490Z",
       "status": "success",
@@ -1586,6 +1573,19 @@
     },
     {
       "timestamp": "2026-10-30T09:52:31.078188Z",
+      "status": "success",
+      "source_events": 97,
+      "usd_events": 26,
+      "usd_high_impact": 5,
+      "quality_filter_passed": 5,
+      "non_usd_super_events": 3,
+      "final_red_news": 8,
+      "added": 0,
+      "updated": 0,
+      "removed": 0
+    },
+    {
+      "timestamp": "2026-10-30T10:48:42.436157Z",
       "status": "success",
       "source_events": 97,
       "usd_events": 26,
