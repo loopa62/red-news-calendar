@@ -479,7 +479,7 @@
       "source": "ForexFactory",
       "source_url": "https://nfs.faireconomy.media/ff_calendar_thisweek.json",
       "first_seen_at": "2026-11-08T07:14:10.024937Z",
-      "last_seen_at": "2026-11-10T17:42:50.898535Z",
+      "last_seen_at": "2026-11-10T23:11:55.964226Z",
       "last_changed_at": "2026-11-08T07:14:10.024937Z",
       "status": "active",
       "observed_week": "2026-W45"
@@ -500,26 +500,13 @@
       "source": "ForexFactory",
       "source_url": "https://nfs.faireconomy.media/ff_calendar_thisweek.json",
       "first_seen_at": "2026-11-08T07:14:10.024937Z",
-      "last_seen_at": "2026-11-10T17:42:50.898535Z",
+      "last_seen_at": "2026-11-10T23:11:55.964226Z",
       "last_changed_at": "2026-11-08T07:14:10.024937Z",
       "status": "active",
       "observed_week": "2026-W45"
     }
   },
   "runs": [
-    {
-      "timestamp": "2026-10-31T17:35:29.738679Z",
-      "status": "success",
-      "source_events": 98,
-      "usd_events": 27,
-      "usd_high_impact": 5,
-      "quality_filter_passed": 5,
-      "non_usd_super_events": 3,
-      "final_red_news": 8,
-      "added": 0,
-      "updated": 0,
-      "removed": 0
-    },
     {
       "timestamp": "2026-10-31T18:43:40.156758Z",
       "status": "success",
@@ -1796,6 +1783,19 @@
     },
     {
       "timestamp": "2026-11-10T17:42:50.649742Z",
+      "status": "success",
+      "source_events": 105,
+      "usd_events": 37,
+      "usd_high_impact": 4,
+      "quality_filter_passed": 2,
+      "non_usd_super_events": 0,
+      "final_red_news": 2,
+      "added": 0,
+      "updated": 0,
+      "removed": 0
+    },
+    {
+      "timestamp": "2026-11-10T23:11:55.766939Z",
       "status": "success",
       "source_events": 105,
       "usd_events": 37,
