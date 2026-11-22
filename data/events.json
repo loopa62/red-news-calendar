@@ -588,22 +588,30 @@
       "last_changed_at": "2026-11-15T16:59:58.365505Z",
       "status": "active",
       "observed_week": "2026-W46"
+    },
+    "911234c757bc203d970df91d@red-news-calendar": {
+      "uid": "911234c757bc203d970df91d@red-news-calendar",
+      "source_id": null,
+      "event_name": "Core PCE Price Index m/m",
+      "normalized_name": "core pce price index",
+      "currency": "USD",
+      "impact": "HIGH",
+      "classification": "EXTREME",
+      "datetime_utc": "2026-11-25T13:30:00Z",
+      "datetime_local": "2026-11-25T20:30:00+07:00",
+      "timezone": "Asia/Jakarta",
+      "forecast": "0.3%",
+      "previous": "0.3%",
+      "source": "ForexFactory",
+      "source_url": "https://nfs.faireconomy.media/ff_calendar_thisweek.json",
+      "first_seen_at": "2026-11-22T11:10:51.880693Z",
+      "last_seen_at": "2026-11-22T11:10:51.880693Z",
+      "last_changed_at": "2026-11-22T11:10:51.880693Z",
+      "status": "active",
+      "observed_week": "2026-W47"
     }
   },
   "runs": [
-    {
-      "timestamp": "2026-11-02T09:13:38.454175Z",
-      "status": "success",
-      "source_events": 115,
-      "usd_events": 33,
-      "usd_high_impact": 4,
-      "quality_filter_passed": 2,
-      "non_usd_super_events": 6,
-      "final_red_news": 8,
-      "added": 0,
-      "updated": 0,
-      "removed": 0
-    },
     {
       "timestamp": "2026-11-02T10:05:39.695825Z",
       "status": "success",
@@ -1888,6 +1896,19 @@
       "non_usd_super_events": 0,
       "final_red_news": 4,
       "added": 0,
+      "updated": 0,
+      "removed": 0
+    },
+    {
+      "timestamp": "2026-11-22T11:10:51.880693Z",
+      "status": "success",
+      "source_events": 75,
+      "usd_events": 24,
+      "usd_high_impact": 2,
+      "quality_filter_passed": 1,
+      "non_usd_super_events": 0,
+      "final_red_news": 1,
+      "added": 1,
       "updated": 0,
       "removed": 0
     }
