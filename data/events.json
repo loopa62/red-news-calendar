@@ -605,26 +605,13 @@
       "source": "ForexFactory",
       "source_url": "https://nfs.faireconomy.media/ff_calendar_thisweek.json",
       "first_seen_at": "2026-11-22T11:10:51.880693Z",
-      "last_seen_at": "2026-11-25T22:26:41.229048Z",
+      "last_seen_at": "2026-11-26T04:56:58.895172Z",
       "last_changed_at": "2026-11-22T11:10:51.880693Z",
       "status": "active",
       "observed_week": "2026-W47"
     }
   },
   "runs": [
-    {
-      "timestamp": "2026-11-02T19:54:19.206154Z",
-      "status": "success",
-      "source_events": 115,
-      "usd_events": 33,
-      "usd_high_impact": 4,
-      "quality_filter_passed": 2,
-      "non_usd_super_events": 6,
-      "final_red_news": 8,
-      "added": 0,
-      "updated": 0,
-      "removed": 0
-    },
     {
       "timestamp": "2026-11-02T20:45:10.736154Z",
       "status": "success",
@@ -1903,6 +1890,19 @@
       "timestamp": "2026-11-25T22:26:41.171196Z",
       "status": "success",
       "source_events": 76,
+      "usd_events": 25,
+      "usd_high_impact": 2,
+      "quality_filter_passed": 1,
+      "non_usd_super_events": 0,
+      "final_red_news": 1,
+      "added": 0,
+      "updated": 0,
+      "removed": 0
+    },
+    {
+      "timestamp": "2026-11-26T04:56:58.804722Z",
+      "status": "success",
+      "source_events": 77,
       "usd_events": 25,
       "usd_high_impact": 2,
       "quality_filter_passed": 1,
